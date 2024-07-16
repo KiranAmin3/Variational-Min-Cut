@@ -1,13 +1,13 @@
-# VQE alg applied to find min cut (= max flow) of a graph
 '''
+VQE alg applied to find min cut (= max flow) of a graph
+ 
 Aims: 
-[] test various circuit depths in twolocal and how it affects speed & accuracy
-[] test various transpilation parameters, simulators etc
-[] different minimisation methods eg grad free (COBYLA?)
+- test various circuit depths in twolocal and how it affects speed & accuracy
+- test various transpilation parameters, simulators etc
+- different minimisation methods eg grad free (COBYLA)
 
 Testing:
- [] generate random graphs with rustworkx, first try <=5 nodes and then <= 10
-[] store these in a data file 
+- generate random graphs with rustworkx, first try <=5 nodes and then <= 10
  
 '''
 
